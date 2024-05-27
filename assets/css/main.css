@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    @apply bg-slate-900;
+}
+
+.site-container {
+    @apply flex flex-col items-center justify-center w-screen min-h-screen;
+}
+
+.panel {
+    @apply bg-slate-800 p-5 rounded-lg shadow-md flex flex-col md:flex-row gap-4 justify-center w-screen h-screen md:w-auto md:h-auto;
+}
+
+.panel-header {
+    @apply flex flex-col gap-3;
+}
+
+.panel-me {
+    @apply flex flex-col gap-2 items-center;
+}
+
+.me-avatar {
+    @apply w-20 h-20 md:w-52 md:h-52 rounded-full;
+}
+
+.me {
+    @apply text-2xl text-white;
+}
+
+.navbar {
+    @apply flex flex-row justify-center items-center md:flex-col gap-3;
+}
+
+.nav-link {
+    @apply transition duration-500 text-center p-2 font-bold text-white w-36 md:w-full;
+}
+
+.nav-link-normal {
+    @apply bg-slate-700 hover:bg-slate-900;
+}
+
+.nav-link-active {
+    @apply bg-slate-900
+}
+
+.nav-link-blue {
+    @apply bg-blue-600 hover:bg-blue-900;
+}
