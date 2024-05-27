@@ -20,12 +20,12 @@ useHead({
       page
     </div>
     <div>
-      For projects I'm working on or worked on, please refer to my <NuxtLink to="/skills" class="text-blue-300">Projects
+      For projects I'm working on or worked on, please refer to my <NuxtLink to="/projects" class="text-blue-300">Projects
       </NuxtLink> page
     </div>
     <div>
       If you want to reach out to me, either a business inquiry, or just a little chit-chat (both I'm open to), please
-      refer to my <NuxtLink to="/skills" class="text-blue-300">Contacts</NuxtLink> page
+      refer to my <NuxtLink to="/contacts" class="text-blue-300">Contacts</NuxtLink> page
     </div>
   </div>
 </template>
