@@ -35,7 +35,7 @@ html, body {
 }
 
 .nav-link {
-    @apply transition duration-500 text-center p-2 font-bold text-white w-36 md:w-full;
+    @apply transition duration-500 text-center p-2 font-bold text-white w-36 md:w-full rounded-xl;
 }
 
 .nav-link-normal {
