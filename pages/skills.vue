@@ -23,5 +23,8 @@ useHead({
     <div>
       <strong>ReactJS (JS/TS)</strong> - Similar to VueJS, ReactJS is a Javascript framework that I also use to build performant single page frontends for web applications
     </div>
+    <div>
+      <strong>Unity (C#)</strong> - A popular 3D game engine that uses the C# programming language. currently a beginner.
+    </div>
   </div>
 </template>

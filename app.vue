@@ -17,7 +17,7 @@
             Contacts</NuxtLink>
         </div>
       </div>
-      <div class="w-full md:w-[500px] p-5 bg-slate-600 text-white rounded-lg overflow-x-scroll">
+      <div class="w-full md:w-[500px] md:h-[456px] p-5 bg-slate-600 text-white rounded-lg overflow-y-scroll">
         <NuxtPage />
       </div>
     </div>
