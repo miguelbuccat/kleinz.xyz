@@ -8,6 +8,9 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  app: {
+    pageTransition : { name : 'page', mode : 'out-in' }
+  },
   router: {
     options: {
       linkActiveClass: "nav-link-active",
