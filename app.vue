@@ -3,7 +3,7 @@
     <div class="panel">
       <div class="panel-header">
         <div class="panel-me">
-          <img src="/frieren.jpg" class="me-avatar">
+          <img src="/kana.jpg" class="me-avatar">
           <h1 class="me">Kleinz</h1>
         </div>
         <div class="navbar">

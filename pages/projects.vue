@@ -15,5 +15,8 @@ useHead({
     <div>
       <a href="#" class="text-blue-300"><strong>loggerino</strong></a> - [WIP] A service for developers to handle logging and analytics easily
     </div>
+    <div>
+      <a href="#" class="text-blue-300"><strong>Katarogu</strong></a> - [WIP] A listing and tracker website for anime and manga
+    </div>
   </div>
 </template>
