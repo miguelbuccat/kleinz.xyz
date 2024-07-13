@@ -92,7 +92,7 @@ const switchToLanding = () => {
 
         You may ask, "why me?"<br /><br />
 
-        Because to me.. you are worth more than all the diamonds
+        Because to me.. you are worth more than all the diamonds. You deserve everything good in the world
       </span>
       <button
           class="transition hover:rotate-6 hover:scale-110 bg-pink-600 font-extrabold text-white px-3 py-1 text-xl rounded-xl shadow-md"
