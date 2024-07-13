@@ -55,7 +55,8 @@ const switchToLanding = () => {
 
 <template>
   <div class="flex flex-col items-center justify-center h-screen w-screen font-flower">
-    <div class="transition duration-500 flex flex-col items-center bg-slate-100 p-4 rounded-lg shadow-md" :class="{ 'opacity-100': landingLoaded, 'opacity-0': !landingLoaded, 'rotate-12': !landingLoaded, 'rotate-0': landingLoaded }" v-if="page === 'landing'">
+    <span class="lg:hidden block text-2xl font-extrabold text-center">pls open on pc, d to gumagana sa phone :sob:</span>
+    <div class="transition duration-500 hidden lg:flex flex-col items-center bg-slate-100 p-4 rounded-lg shadow-md" :class="{ 'opacity-100': landingLoaded, 'opacity-0': !landingLoaded, 'rotate-12': !landingLoaded, 'rotate-0': landingLoaded }" v-if="page === 'landing'">
       <img src="/heart.svg" width="50" height="50" />
       <span class="text-2xl">kleinz wants you to read something</span>
       <div class="flex flex-row gap-2 mt-2">
@@ -76,7 +77,7 @@ const switchToLanding = () => {
       </div>
     </div>
 
-    <div class="transition duration-500 flex flex-col items-end bg-slate-100 p-4 rounded-lg shadow-md w-[600px]" :class="{ 'opacity-100': letterLoaded, 'opacity-0': !letterLoaded, 'rotate-12': !letterLoaded, 'rotate-0': letterLoaded }" v-if="page === 'letter'">
+    <div class="transition duration-500 hidden lg:flex flex-col items-end bg-slate-100 p-4 rounded-lg shadow-md w-[600px]" :class="{ 'opacity-100': letterLoaded, 'opacity-0': !letterLoaded, 'rotate-12': !letterLoaded, 'rotate-0': letterLoaded }" v-if="page === 'letter'">
       <img src="/heart.svg" class="mx-auto" width="50" height="50" />
       <span class="text-2xl text-blue-400 mx-auto">"worth more than all the diamonds"</span>
       <span class="text-left">
