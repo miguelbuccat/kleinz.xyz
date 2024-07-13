@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -9,7 +11,11 @@ export default {
     "./error.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        flower: ['"Indie Flower"', ...defaultTheme.fontFamily.sans]
+      },
+    },
   },
   plugins: [],
 }
