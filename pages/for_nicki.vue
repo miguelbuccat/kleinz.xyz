@@ -86,6 +86,8 @@ const switchToLanding = () => {
 
         To me, you are worth more than all the diamonds in the world. Just because the people before me treated you like a joke, just a regular stone.. doesn't mean you are. They just weren't the people who were meant to discover a gem like you. If a person could be measured in carats, to me, you would outweigh the scale of rarity and preciousness of all the gems in the world.<br /><br />
 
+        The pain of the past is over, nicki. I'm here for you, alright? The pain from the past shall not repeat again.<br /><br />
+
         If no one has taken you seriously until now, and no one has treated you right.. I will be the first to do so. If no one has stayed with you until your birthday, then I'll stay with you until your birthday, and I'll stay with you even after your birthday. Now and forever, I'm here. I will shield you from the pain of the past, and also shield you from the pain of the present and future. I will treat you right and love you right, just the way you deserve to be loved...<br /><br />
 
         You may ask, "why me?"<br /><br />
