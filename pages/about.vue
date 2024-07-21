@@ -24,6 +24,8 @@ definePageMeta
       I do full-stack web development. In fact, I've been doing web development since I was 11. <br/>
       <br/>
       To see what I'm capable of, please check out my <NuxtLink class="transition text-pink-600 hover:text-pink-800" to="/skills">Skills</NuxtLink> page<br />
+      <br/>
+      For more info about what I do, check out my <a class="transition text-pink-600 hover:text-pink-800" href="https://github.com/miguelbuccat">Github</a>
     </div>
   </div>
 </template>
