@@ -12,6 +12,9 @@ export default {
   ],
   theme: {
     extend: {
+      transitionProperty: {
+        height: 'height'
+      },
       fontFamily: {
         flower: ['"Indie Flower"', ...defaultTheme.fontFamily.sans]
       },

@@ -1,31 +1,29 @@
 <script setup>
 useHead({
-  title : 'kleinz.xyz | Home',
+  title: 'kleinz.xyz | Home',
 });
+
+definePageMeta
+  ({
+    layout
+      : 'newdesign'
+  });
 </script>
 
 <template>
-  <div class="flex flex-col gap-4">
-    <div>
-      Hi! I'm <strong>Miguel Buccat</strong>! Also known online by Kleinz
+  <div class="flex flex-col items-stretch gap-6">
+    <div
+      class="bg-[url('/kaguya_banner.jpg')] bg-cover w-full h-[200px] bg-center rounded-xl shadow-md flex flex-col items-center justify-center">
+      <!-- <span class="font-extrabold text-3xl bg-slate-500 bg-opacity-80 text-white px-3 py-2 rounded-lg">Infos about me</span> -->
     </div>
-    <div>
-      I'm a 16 year old studying TVL-ICT at De La Salle University - Dasmariñas
-    </div>
-    <div>
-      I do full-stack web development. In fact, I've been doing it since I was 11.
-    </div>
-    <div>
-      To see what I'm capable of, please check out my <NuxtLink to="/skills" class="text-blue-300">Skills</NuxtLink>
-      page
-    </div>
-    <div>
-      For projects I'm working on or worked on, please refer to my <NuxtLink to="/projects" class="text-blue-300">Projects
-      </NuxtLink> page
-    </div>
-    <div>
-      If you want to reach out to me, either a business inquiry, or just a little chit-chat (both I'm open to), please
-      refer to my <NuxtLink to="/contacts" class="text-blue-300">Contacts</NuxtLink> page
+    <div class="flex flex-row gap-3">
+      <div class="bg-[url('/kaguya.jpg')] bg-cover w-[125px] h-[125px] rounded-full flex-shrink-0"></div>
+      <div class="flex flex-col justify-center">
+        <span class="text-3xl font-extrabold">Kleinz</span>
+        <span class="text-slate-700 font-bold">🇵🇭 | he/him | 16 year old | full-stack web developer | nicki ❤️</span>
+        <span class="text-xl text-slate-500">"You can't change the beginning, but you can start where you are and change
+          the ending"</span>
+      </div>
     </div>
   </div>
 </template>
