@@ -13,10 +13,10 @@ definePageMeta
 <template>
   <div class="flex flex-col items-stretch gap-6">
     <div
-      class="bg-[url('/kaguya_banner.jpg')] bg-cover w-full h-[200px] bg-center rounded-xl shadow-md flex flex-col items-center justify-center max-h-[350px] overflow-y-auto">
+      class="bg-[url('/kanaa_banner.jpg')] bg-cover w-full h-[200px] bg-center rounded-xl shadow-md flex flex-col items-center justify-center max-h-[350px] overflow-y-auto">
       <span class="font-extrabold text-3xl bg-slate-500 bg-opacity-80 text-white px-3 py-2 rounded-lg">about me</span>
     </div>
-    <div class="text-xl w-full p-4 rounded-xl bg-pink-200 border-2 border-pink-300">
+    <div class="text-xl w-full p-4 rounded-xl bg-blue-200 border-2 border-blue-300">
       Hi! I'm Miguel Buccat. Also known by my online alias, <strong>Kleinz</strong>. I go by he/him pronouns<br/>
       <br/>
       🇵🇭 I'm a 16 year old studying TVL-ICT at DLSU-Dasmariñas 🏹💚<br/>

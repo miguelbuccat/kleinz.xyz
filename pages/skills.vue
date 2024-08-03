@@ -13,10 +13,10 @@ definePageMeta
 <template>
   <div class="flex flex-col items-stretch gap-6">
     <div
-      class="bg-[url('/kaguya_banner.jpg')] bg-cover w-full h-[200px] bg-center rounded-xl shadow-md flex flex-col items-center justify-center">
+      class="bg-[url('/kanaa_banner.jpg')] bg-cover w-full h-[200px] bg-center rounded-xl shadow-md flex flex-col items-center justify-center">
       <span class="font-extrabold text-3xl bg-slate-500 bg-opacity-80 text-white px-3 py-2 rounded-lg">skills</span>
     </div>
-    <div class="text-xl w-full p-4 rounded-xl bg-pink-200 border-2 border-pink-300 flex flex-col gap-2 max-h-[350px] overflow-y-auto">
+    <div class="text-xl w-full p-4 rounded-xl bg-blue-200 border-2 border-blue-300 flex flex-col gap-2 max-h-[350px] overflow-y-auto">
       <div>
         <strong>ExpressJS (JS/TS)</strong> - ExpressJS is a minimalist and unopinionated framework I use to make
         performant APIs or multiple-page applications using
