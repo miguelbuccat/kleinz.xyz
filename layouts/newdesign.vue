@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col items-center justify-center h-screen w-screen font-flower p-4">
+  <div class="flex flex-col items-center justify-center h-screen w-screen font-sans p-4">
     <div class="transition-height duration-500 flex flex-col items-stretch bg-slate-50 p-6 rounded-xl shadow-md gap-6 w-[450px] md:w-[548px] border-2 border-blue-300">
       <slot />
       <div class="flex flex-row justify-center gap-2">
